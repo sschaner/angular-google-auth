@@ -1,0 +1,17 @@
+@import "_variables.scss";
+
+body {
+  background-color: $primary-color;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+
+.custom-card {
+  padding: 30px;
+  width: 400px;
+  background-color: $white;
+  border-radius: 10px;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.05);
+}

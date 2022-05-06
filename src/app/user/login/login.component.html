@@ -1,0 +1,25 @@
+<div class="container-fluid d-flex align-items-center justify-content-center">
+  <div class="custom-card">
+    <div class="form-group mb-3">
+      <input type="email" class="form-control" placeholder="Enter email" />
+    </div>
+    <div class="form-group mb-3">
+      <input
+        type="password"
+        class="form-control"
+        placeholder="Enter password"
+      />
+    </div>
+    <button class="btn btn-block btn-primary w-100">Login</button>
+    <p class="horizontal-line-text w-100 text-center">
+      <span>or</span>
+    </p>
+    <button
+      class="btn btn-block google-sign-in text-center w-100"
+      (click)="signInHandler()"
+    >
+      <img [src]="'assets/img/google.svg'" alt="Google logo" />
+      <span class="align-middle">Continue with Google</span>
+    </button>
+  </div>
+</div>

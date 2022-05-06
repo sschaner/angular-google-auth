@@ -1,0 +1,20 @@
+<div class="container-fluid d-flex align-items-center justify-content-center">
+  <div class="custom-card">
+    <div class="text-center mb-4">
+      <img [src]="userDetails.photoUrl" alt="User avatar" class="user-avatar" />
+    </div>
+
+    <p class="mb-2">
+      <span class="font-weight-bold">Name: </span>{{ userDetails.name }}
+    </p>
+
+    <p class="mb-2">
+      <span class="font-weight-bold">Email: </span>{{ userDetails.email }}
+    </p>
+    <div class="d-flex mt-4 justify-content-center">
+      <button class="btn btn-block btn-danger" (click)="signOut()">
+        Sign Out
+      </button>
+    </div>
+  </div>
+</div>

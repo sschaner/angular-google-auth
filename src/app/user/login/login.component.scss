@@ -1,0 +1,24 @@
+@import "/src/scss/variables";
+
+.horizontal-line-text {
+  border-bottom: 1px solid $secondary-color;
+  line-height: 0.1rem;
+  margin: 25px 0 30px 0;
+}
+
+span {
+  background: $white;
+  padding: 0 10px;
+}
+
+.google-sign-in {
+  background-color: $white;
+  border: 1px solid $secondary-color;
+  padding: 10px 30px;
+  font-weight: bold;
+  height: 100%;
+
+  img {
+    float: left;
+  }
+}
